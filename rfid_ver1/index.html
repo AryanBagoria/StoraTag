@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+        
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js'></script>
+        <script src="/socket.io/socket.io.js"></script>
+
+    </head>
+    <body>
+
+        <div class="form-group-9"></div>
+        <label class="control-label col-sm-2" for="uid">UID</label>
+
+        <h1 class="border-uid" style="border: 1px solid;"><div id="sample"></div></h1>
+
+        <script>
+        var socket = io();
+        socket.on('data', function(data) {
+            console.log(data);
+            document.getElementById('sample').innerHTML = data;
+        });
+        </script>
+
+
+    </body>
+</html>
