@@ -1,10 +1,3 @@
-/****
-   SIT209 - Software Engineering 2: Developing IoT Applications
-   Exercise:       Service API Integration
-   Student Name:   Ereena Bagga
-   Student ID:     2010993040
- ****/
-
 // Include the mongose module
 const mongoose = require('mongoose');
 
