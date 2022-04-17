@@ -1,0 +1,89 @@
+<!-- SIT209 - Software Engineering 2: Developing IoT Applications
+ 
+**-- Exercise:       MQTT Integration
+**-- Student Name:   Ereena Bagga
+**-- Student ID:     2010993040 
+-->
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="description" content="A frontend dashboard for the sending IoT device commands" />
+    <meta name="author" content="Kevin Lee" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Webpage title -->
+    <title>Sending Sack UID Commands</title>
+
+    <!-- Stylesheets used from w3-schools -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+    <!-- Bootstrap Stylesheet used -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+
+<div class="container">
+
+    <!-- Navbar -->
+    <div id="navbar"></div>
+
+    <body>
+
+        <h1>Send Command</h1>
+
+        <!-- Bootstrap Form -->
+
+        <!-- Device ID -->
+        <div class="form-group">
+            <label for="sackUID">Sack UID</label>
+            <input type="text" class="form-control" id="sackUID" />
+        </div>
+
+        <!-- Command -->
+        <div class="form-group">
+            <label for="command">Command</label>
+            <textarea rows="2" class="form-control" id="command"></textarea>
+        </div>
+        <br>
+
+        <!-- Checkbox -->
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <div class="checkbox">
+                    <label><input type="checkbox"> Remember me</label>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <!-- Button -->
+        <button class="btn btn-primary" id="send-command">Send</button>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <!-- Footer -->
+        <div id="footer"></div>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="app.js"></script>
+
+    </body>
+</div>
+
+</html>
