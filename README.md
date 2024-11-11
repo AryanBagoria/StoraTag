@@ -1,6 +1,7 @@
 # StoraTAG
 
 # About the Project
+![image](https://github.com/AryanBagoria/StoraTag/blob/main/storatag.png)
 The project helps reduce wastage of food and increase the mobility and management over food. It is basically for supervision of food in granaries or cold storage to prevent damage and have easy access over food information(details like harvest day, possible expiration, cost price, possible selling price). For small grainery owners it can save a lot of money as sometimes product brought for more is sold for cheaper due to mismanagement. A remote website with all the information of stock can help in seamless trade and save resources.
 
 The goal of the project was to create a mass food storage system that could be used to remotely monitor and manage food granaries or cold storage. StoraTAG is an RFID-enabled mass storage system that helps reduce food waste and improve food mobility and management by allowing us to trace the lifecycle of a sack from the time it enters the storage unit until it exits. It also uses a UID system (Unique Identification System) to distinguish sacks from one another and stores their related data in a database, making it simple for the user to track the status of the sacks from our StoraTAG website.
